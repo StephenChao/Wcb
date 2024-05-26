@@ -103,7 +103,7 @@ def get_template(h, sample):
 
 
 
-def blindBins(h: Hist, blind_region: List, blind_samples: List[str] = []):
+def blindBins(h, blind_region, blind_samples = []):
     """
     Blind (i.e. zero) bins in histogram ``h``.
     If ``blind_samples`` specified, only blind those samples, else blinds all.

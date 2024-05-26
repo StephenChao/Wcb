@@ -25,7 +25,7 @@ utils.add_bool_arg(parser, "load-pickles", "load pre-saved shapes and data_err p
 args = parser.parse_args()
 
 
-os.system(f"mkdir -p {args.plots_dir}")
+os.system(("mkdir -p %s" % ((args.plots_dir))))
 
 
 hist_label_map = {
@@ -55,7 +55,7 @@ if not args.load_pickles:
 
     for key in list(shapes.keys()):
         if key not in file:
-            print(f"{key} not found!")
+            print(("%s not found!" % ((key))))
             del shapes[key]
 
     hists = {}
@@ -88,29 +88,29 @@ if not args.load_pickles:
                 )
             )
 
-    with open(f"{args.plots_dir}/hists.pkl", "wb") as f:
+    with open(("%s/hists.pkl" % ((args.plots_dir))), "wb") as f:
         pickle.dump(hists, f)
 
-    with open(f"{args.plots_dir}/data_errs.pkl", "wb") as f:
+    with open(("%s/data_errs.pkl" % ((args.plots_dir))), "wb") as f:
         pickle.dump(data_errs, f)
 
     print("Saved pickles")
 else:
     print("Loading pickles")
 
-    with open(f"{args.plots_dir}/hists.pkl", "rb") as f:
+    with open(("%s/hists.pkl" % ((args.plots_dir))), "rb") as f:
         hists = pickle.load(f)
 
-    with open(f"{args.plots_dir}/data_errs.pkl", "rb") as f:
+    with open(("%s/data_errs.pkl" % ((args.plots_dir))), "rb") as f:
         data_errs = pickle.load(f)
 
 
 for shape, slabel in shapes.items():
     if shape not in hists:
-        print(f"{shape} not found!")
+        print(("%s not found!" % ((shape))))
         continue
 
-    print(f"Plotting {shape}")
+    print(("Plotting %s" % ((shape))))
 
     for region, rlabel in regions.items():
         try:
@@ -118,9 +118,9 @@ for shape, slabel in shapes.items():
                 hists[shape][region],
                 ["QCD", "TT"],
                 data_err=data_errs[shape][region],
-                title=f"{rlabel} Region {slabel} Shapes",
-                name=f"{args.plots_dir}/{shape}_{region}.pdf",
+                title=("%s Region %s Shapes" % ((rlabel), (slabel))),
+                name=("%s/%s_%s.pdf" % ((args.plots_dir), (shape), (region))),
                 show=False,
             )
         except AttributeError:
-            print(f"Error in {region} region!")
+            print(("Error in %s region!" % ((region))))
