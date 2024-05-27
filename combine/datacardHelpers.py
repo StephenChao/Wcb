@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import logging
 from dataclasses import dataclass, field
 from string import Template
@@ -37,11 +35,11 @@ jecs = {
 class ShapeVar:
     """For storing and calculating info about variables used in fit"""
 
-    name:str = None
-    bins:np.ndarray = None  # bin edges
-    order_1:int = None  # TF order for tf_1, to be decided
-    order_2:int = None  # TF order for tf_2, to be decided
-    order_3:int = None  # TF order for tf_3, to be decided
+    name = None
+    bins = None  # bin edges
+    order_1 = None  # TF order for tf_1, to be decided
+    order_2 = None  # TF order for tf_2, to be decided
+    order_3 = None  # TF order for tf_3, to be decided
 
 
     def __post_init__(self):
@@ -54,23 +52,23 @@ class ShapeVar:
 class Syst:
     """For storing info about systematics"""
 
-    name: str = None
-    prior: str = None  # e.g. "lnN", "shape", etc.
+    name = None
+    prior = None  # e.g. "lnN", "shape", etc.
 
     # float if same value in all regions/samples, dictionary of values per region/sample if not
     # if both, region should be the higher level of the dictionary
-    value: Union[float, Dict[str, float]] = None
-    value_down: Union[float, Dict[str, float]] = None  # if None assumes symmetric effect
+    value = None
+    value_down = None  # if None assumes symmetric effect
     # if the value is different for different regions or samples
-    diff_regions: bool = False
-    diff_samples: bool = False
+    diff_regions = False
+    diff_samples = False
 
-    samples: List[str] = None  # samples affected by it
-    samples_corr: bool = True  # if it's correlated between samples, i.e., many samples have the same unc.
+    samples = None  # samples affected by it
+    samples_corr = True  # if it's correlated between samples, i.e., many samples have the same unc.
     # in case of uncorrelated unc., which years to split into
-    uncorr_years: List[str] = field(default_factory=lambda: years)
-    pass_only: bool = False  # is it applied only in the pass regions
-    apply_reg: str = None # if pass_only == True, then apply_reg can be assigned
+    uncorr_years = field(default_factory=lambda: years)
+    pass_only = False  # is it applied only in the pass regions
+    apply_reg = None # if pass_only == True, then apply_reg can be assigned
     
     def __post_init__(self):
         if isinstance(self.value, dict) and not (self.diff_regions or self.diff_samples):
@@ -91,7 +89,7 @@ def add_bool_arg(parser, name, help, default=False, no_name=None):
     group.add_argument("--" + no_name, dest=varname, action="store_false", help=no_help)
     parser.set_defaults(**{varname: default})
     
-def sum_templates(template_dict: dict, years: List[str]):
+def sum_templates(template_dict, years):
     """Sum templates across years"""
 
     ttemplate = next(iter(template_dict.values()))  # sample templates to extract values from
@@ -105,7 +103,7 @@ def sum_templates(template_dict: dict, years: List[str]):
         combined[region] = sum(thists)
     return combined
 
-def rem_neg(template_dict: dict):
+def rem_neg(template_dict):
     for _sample, template in template_dict.items():
         template.values()[template.values() < 0] = 0
     #remove negative value
@@ -121,22 +119,22 @@ def get_year_updown(
     updown = []
 
     for shift in ["up", "down"]:
-        sshift = f"{skey}_{shift}"
+        sshift = ("%s_%s" % ((skey), (shift)))
         # get nominal templates for each year
         templates = {y: templates_dict[y][region][sample,:] for y in years}
         
-        # logging.info(f"summed nominal values in {year} is {sum(list(templates.values())).values()}")
+        # logging.info(("summed nominal values in %s is %s" % ((year), (sum(list(templates.values())).values()))))
 
         # replace template only for this year with the shifted template
         if skey in jecs:
             # JEC/JMCs saved as different "region" in dict
-            reg_name = f"{region_noblinded}_{sshift}{blind_str}"
+            reg_name = ("%s_%s%s" % ((region_noblinded), (sshift), (blind_str)))
             templates[year] = templates_dict[year][reg_name][sample, :]
-            # logging.info(f"{sshift} values in {year} is {templates[year]}")
+            # logging.info(("%s values in %s is %s" % ((sshift), (year), (templates[year]))))
         else:
             # weight uncertainties saved as different "sample" in dict
-            templates[year] = templates_dict[year][region][f"{sample}_{sshift}", :]
-            # logging.info(f"{sshift} values in {year} is {templates[year]}")
+            templates[year] = templates_dict[year][region][("%s_%s" % ((sample), (sshift))), :]
+            # logging.info(("%s values in %s is %s" % ((sshift), (year), (templates[year]))))
 
 
         # sum templates with year's template replaced with shifted
@@ -163,9 +161,9 @@ def get_effect_updown(values_nominal, values_up, values_down, mask, logger, epsi
 
     _shape_checks(values_up, values_down, values_nominal, effect_up, effect_down, logger)
 
-    logging.debug(f"nominal   : {values_nominal}")
-    logging.debug(f"effect_up  : {effect_up}")
-    logging.debug(f"effect_down: {effect_down}")
+    logging.debug(("nominal   : %s" % ((values_nominal))))
+    logging.debug(("effect_up  : %s" % ((effect_up))))
+    logging.debug(("effect_down: %s" % ((effect_down))))
 
     return effect_up, effect_down
 
