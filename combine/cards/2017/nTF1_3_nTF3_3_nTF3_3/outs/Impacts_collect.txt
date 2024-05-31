@@ -1,0 +1,10 @@
+Have POIs: ['r']
+Have parameters: 171
+Setting parameter mask_SR1 to 0
+Setting parameter mask_SR2 to 0
+Setting parameter mask_SR3 to 0
+Setting parameter mask_CR to 0
+Setting parameter mask_SR1Blinded to 1
+Setting parameter mask_SR2Blinded to 1
+Setting parameter mask_SR3Blinded to 1
+Setting parameter mask_CRBlinded to 1

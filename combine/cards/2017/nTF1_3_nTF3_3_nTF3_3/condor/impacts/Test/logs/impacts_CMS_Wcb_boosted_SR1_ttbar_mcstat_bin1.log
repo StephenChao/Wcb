@@ -1,0 +1,81 @@
+000 (17218938.000.000) 2024-05-26 14:37:56 Job submitted from host: <192.170.231.212:9618?addrs=192.170.231.212-9618&alias=login-el7.uscms.org&noUDP&sock=schedd_8741_2d6c>
+...
+040 (17218938.000.000) 2024-05-26 14:52:27 Started transferring input files
+	Transferring to host: <188.185.204.142:46569?CCBID=137.138.152.114:9662%3faddrs%3d[2001-1458-d00-13--58]-9662+137.138.152.114-9662%26alias%3dvocms0821.cern.ch#3468638&PrivNet=b9p02p4761.cern.ch&addrs=[2001-1458-303-8--100-82]-46569+188.185.204.142-46569&alias=b9p02p4761.cern.ch&noUDP>
+...
+001 (17218938.000.000) 2024-05-26 14:52:28 Job executing on host: <188.185.204.142:33927?CCBID=137.138.152.114:9672%3faddrs%3d[2001-1458-d00-13--58]-9672+137.138.152.114-9672%26alias%3dvocms0821.cern.ch#3420695&PrivNet=b9p02p4761.cern.ch&addrs=[2001-1458-303-8--100-82]-33927+188.185.204.142-33927&alias=b9p02p4761.cern.ch&noUDP>
+...
+040 (17218938.000.000) 2024-05-26 14:52:28 Finished transferring input files
+...
+006 (17218938.000.000) 2024-05-26 14:52:38 Image size of job updated: 29016
+	9  -  MemoryUsage of job (MB)
+	7448  -  ResidentSetSize of job (KB)
+	8670  -  ProportionalSetSize of job (KB)
+...
+006 (17218938.000.000) 2024-05-26 14:57:02 Image size of job updated: 2602836
+	55  -  MemoryUsage of job (MB)
+	55336  -  ResidentSetSize of job (KB)
+	8670  -  ProportionalSetSize of job (KB)
+...
+040 (17218938.000.000) 2024-05-26 14:57:02 Started transferring output files
+...
+040 (17218938.000.000) 2024-05-26 14:57:02 Finished transferring output files
+...
+005 (17218938.000.000) 2024-05-26 14:57:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	52074  -  Run Bytes Sent By Job
+	1151865  -  Run Bytes Received By Job
+	52074  -  Total Bytes Sent By Job
+	1151865  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   120020     1250   2626181 
+	   Memory (MB)          :        9     3000      3072 
+
+	Job terminated of its own accord at 2024-05-26T19:57:01Z.
+...
+000 (17219110.000.000) 2024-05-26 15:13:12 Job submitted from host: <192.170.231.212:9618?addrs=192.170.231.212-9618&alias=login-el7.uscms.org&noUDP&sock=schedd_8741_2d6c>
+...
+040 (17219110.000.000) 2024-05-26 15:13:15 Started transferring input files
+	Transferring to host: <128.142.63.76:36419?CCBID=137.138.152.114:9701%3faddrs%3d[2001-1458-d00-13--58]-9701+137.138.152.114-9701%26alias%3dvocms0821.cern.ch#3460640%20131.225.204.58:9703%3faddrs%3d[2620-6a-0-8420-f0-0-204-58]-9703+131.225.204.58-9703%26alias%3dcmssrv2221.fnal.gov#145900&PrivNet=b9s08p0597.cern.ch&addrs=[2001-1458-301-38--100-49]-36419+128.142.63.76-36419&alias=b9s08p0597.cern.ch&noUDP>
+...
+040 (17219110.000.000) 2024-05-26 15:13:16 Finished transferring input files
+...
+001 (17219110.000.000) 2024-05-26 15:13:16 Job executing on host: <128.142.63.76:42813?CCBID=137.138.152.114:9631%3faddrs%3d[2001-1458-d00-13--58]-9631+137.138.152.114-9631%26alias%3dvocms0821.cern.ch#3426602%20131.225.204.58:9681%3faddrs%3d[2620-6a-0-8420-f0-0-204-58]-9681+131.225.204.58-9681%26alias%3dcmssrv2221.fnal.gov#148085&PrivNet=b9s08p0597.cern.ch&addrs=[2001-1458-301-38--100-49]-42813+128.142.63.76-42813&alias=b9s08p0597.cern.ch&noUDP>
+...
+006 (17219110.000.000) 2024-05-26 15:13:26 Image size of job updated: 2454208
+	18  -  MemoryUsage of job (MB)
+	49932  -  ResidentSetSize of job (KB)
+	17840  -  ProportionalSetSize of job (KB)
+...
+006 (17219110.000.000) 2024-05-26 15:13:40 Image size of job updated: 3023224
+	508  -  MemoryUsage of job (MB)
+	519548  -  ResidentSetSize of job (KB)
+	17840  -  ProportionalSetSize of job (KB)
+...
+040 (17219110.000.000) 2024-05-26 15:13:41 Started transferring output files
+...
+040 (17219110.000.000) 2024-05-26 15:13:41 Finished transferring output files
+...
+012 (17219110.000.000) 2024-05-26 15:13:42 Job was held.
+	The CPU usage 1.251414899815616E+00 exceeds the requested 1 CPUs. Please, check your workflow cpu/core requirements.
+	Code 26 Subcode 120
+...
+013 (17219110.000.000) 2024-05-26 15:26:48 Job was released.
+	via condor_release (by user yuzhe)
+...
+012 (17219110.000.000) 2024-05-26 15:27:21 Job was held.
+	The CPU usage 1.251414899815616E+00 exceeds the requested 1 CPUs. Please, check your workflow cpu/core requirements.
+	Code 26 Subcode 120
+...
+013 (17219110.000.000) 2024-05-26 15:30:30 Job was released.
+	via condor_release (by user yuzhe)
+...
+012 (17219110.000.000) 2024-05-26 15:31:21 Job was held.
+	The CPU usage 1.251414899815616E+00 exceeds the requested 1 CPUs. Please, check your workflow cpu/core requirements.
+	Code 26 Subcode 120
+...

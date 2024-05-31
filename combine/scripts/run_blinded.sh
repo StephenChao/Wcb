@@ -154,18 +154,21 @@ if [ $resonant = 0 ]; then #doing nonresonant fits
     maskunblindedargs=""
     maskblindedargs=""
 
-    for region in 1 2;
-    do 
-        cr="CR"
-        sr="SR${region}"
-        ccargs+="${cr}=${cards_dir}/${cr}.txt ${cr}Blinded=${cards_dir}/${cr}Blinded.txt "
-        ccargs+="${sra}=${cards_dir}/${sra}.txt ${sra}Blinded=${cards_dir}/${sra}Blinded.txt "
-        ccargs+="${srb}=${cards_dir}/${srb}.txt ${srb}Blinded=${cards_dir}/${srb}Blinded.txt "
-        maskunblindedargs+="mask_${sra}=1,mask_${srb}=1,mask_${cr}=1,"
-        maskunblindedargs+="mask_${sra}Blinded=0,mask_${srb}Blinded=0,mask_${cr}Blinded=0,"
-        maskblindedargs+="mask_${sra}=0,mask_${srb}=0,mask_${cr}=0,"
-        maskblindedargs+="mask_${sra}Blinded=1,mask_${srb}Blinded=1,mask_${cr}Blinded=1,"
-    done
+    #in case the name has to be changed
+    sr1="SR1"
+    sr2="SR2"
+    sr3="SR3"
+    cr="CR"
+    
+    ccargs+="${cr}=${cards_dir}/${cr}.txt ${cr}Blinded=${cards_dir}/${cr}Blinded.txt "
+    ccargs+="${sr1}=${cards_dir}/${sr1}.txt ${sr1}Blinded=${cards_dir}/${sr1}Blinded.txt "
+    ccargs+="${sr2}=${cards_dir}/${sr2}.txt ${sr2}Blinded=${cards_dir}/${sr2}Blinded.txt "
+    ccargs+="${sr3}=${cards_dir}/${sr3}.txt ${sr3}Blinded=${cards_dir}/${sr3}Blinded.txt "
+
+    maskunblindedargs+="mask_${sr1}=1,mask_${sr2}=1,mask_${sr3}=1,mask_${cr}=1,"
+    maskunblindedargs+="mask_${sr1}Blinded=0,mask_${sr2}Blinded=0,mask_${sr3}Blinded=0,mask_${cr}Blinded=0,"
+    maskblindedargs+="mask_${sr1}=0,mask_${sr2}=0,mask_${sr3}=0,mask_${cr}=0,"
+    maskblindedargs+="mask_${sr1}Blinded=1,mask_${sr2}Blinded=1,mask_${sr3}Blinded=1,mask_${cr}Blinded=1,"
     
     maskblindedargs=${maskblindedargs%,}
     maskunblindedargs=${maskunblindedargs%,}
@@ -173,18 +176,15 @@ if [ $resonant = 0 ]; then #doing nonresonant fits
     echo "maskblinded=${maskblindedargs}"
     echo "maskunblinded=${maskunblindedargs}"
     
-    # blind 80 - 160 GeV mass bin, starts from 80 and ends with 160
+    # blind 50 - 110 GeV mass bin, starts from 80 and ends with 160
     # freeze qcd params in blinded bins
     setparamsblinded=""
     freezeparamsblinded=""
-    for bin in {4..9} 
+
+    for bin in {2..7} 
     do  
-        for cr in CR1 CR2;
-        # for cr in CR3;
-        do
-            setparamsblinded+="CMS_HWW_boosted_tf_dataResidual_${cr}_Bin${bin}=0,"
-            freezeparamsblinded+="CMS_HWW_boosted_tf_dataResidual_${cr}_Bin${bin},"
-        done
+        setparamsblinded+="CMS_Wcb_boosted_tf_dataResidual_${cr}_Bin${bin}=0,"
+        freezeparamsblinded+="CMS_Wcb_boosted_tf_dataResidual_${cr}_Bin${bin},"
     done
 
     # remove last comma

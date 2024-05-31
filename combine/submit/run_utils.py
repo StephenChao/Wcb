@@ -1,5 +1,5 @@
 # from distributed.diagnostics.plugin import WorkerPlugin
-from __future__ import annotations
+from __future__ import print_function
 
 import json
 import os
@@ -25,7 +25,7 @@ def add_bool_arg(parser, name, help, default=False, no_name=None):
     parser.set_defaults(**{varname: default})
 
 
-def write_template(templ_file: str, out_file: Path, templ_args: dict):
+def write_template(templ_file, out_file, templ_args):
     """Write to ``out_file`` based on template from ``templ_file`` using ``templ_args``"""
 
     with Path(templ_file).open() as f:
@@ -36,7 +36,7 @@ def write_template(templ_file: str, out_file: Path, templ_args: dict):
 
 
 def print_red(s):
-    return print(f"{Fore.RED}{s}{Style.RESET_ALL}")
+    return print(("%s%s%s" % ((Fore.RED), (s), (Style.RESET_ALL))))
 
 
 def add_mixins(nanoevents):
@@ -52,15 +52,15 @@ def add_mixins(nanoevents):
     nanoevents.PFNanoAODSchema.mixins["SV"] = "PFCand"
 
 
-def check_branch(git_branch: str, allow_diff_local_repo: bool = False):
+def check_branch(git_branch, allow_diff_local_repo = False):
     """Check that specified git branch exists in the repo, and local repo is up-to-date"""
     assert not bool(
         os.system(
-            f'git ls-remote --exit-code --heads "https://github.com/rkansal47/HHbbVV" "{git_branch}"'
+            ('git ls-remote --exit-code --heads "https://github.com/rkansal47/HHbbVV" "%s"' % ((git_branch)))
         )
-    ), f"Branch {git_branch} does not exist"
+    ), ("Branch %s does not exist" % ((git_branch)))
 
-    print(f"Using branch {git_branch}")
+    print(("Using branch %s" % ((git_branch))))
 
     # check if there are uncommitted changes
     uncommited_files = int(subprocess.getoutput("git status -s | wc -l"))
@@ -75,13 +75,13 @@ def check_branch(git_branch: str, allow_diff_local_repo: bool = False):
             sys.exit(1)
 
     # check that the local repo's latest commit matches that on github
-    remote_hash = subprocess.getoutput(f"git show origin/{git_branch} | head -n 1").split(" ")[1]
+    remote_hash = subprocess.getoutput(("git show origin/%s | head -n 1" % ((git_branch)))).split(" ")[1]
     local_hash = subprocess.getoutput("git rev-parse HEAD")
 
     if remote_hash != local_hash:
         print_red("Latest local and github commits do not match! Did you push your changes?")
-        print(f"Local commit hash: {local_hash}")
-        print(f"Remote commit hash: {remote_hash}")
+        print(("Local commit hash: %s" % ((local_hash))))
+        print(("Remote commit hash: %s" % ((remote_hash))))
         if allow_diff_local_repo:
             print_red("Proceeding anyway...")
         else:
@@ -101,21 +101,21 @@ def check_branch(git_branch: str, allow_diff_local_repo: bool = False):
 
 
 def get_fileset(
-    processor: str,
-    year: int,
-    samples: list,
-    subsamples: list,
-    starti: int = 0,
-    endi: int = -1,
-    get_num_files: bool = False,
-    coffea_casa: str = False,
+    processor,
+    year,
+    samples,
+    subsamples,
+    starti = 0,
+    endi = -1,
+    get_num_files = False,
+    coffea_casa = False,
 ):
     if processor.startswith("trigger"):
-        samples = [f"SingleMu{year[:4]}"]
+        samples = [("SingleMu%s" % ((year[:4])))]
 
     redirector = "root://cmseos.fnal.gov//" if not coffea_casa else "root://xcache//"
 
-    with Path(f"data/pfnanoindex_{year}.json").open() as f:
+    with Path(("data/pfnanoindex_%s.json" % ((year)))).open() as f:
         full_fileset_pfnano = json.load(f)
 
     fileset = {}
@@ -144,9 +144,9 @@ def get_fileset(
 
             for subsample, fnames in sample_set.items():
                 run_fnames = fnames[starti:] if endi < 0 else fnames[starti:endi]
-                sample_fileset[f"{year}_{subsample}"] = [redirector + fname for fname in run_fnames]
+                sample_fileset[("%s_%s" % ((year), (subsample)))] = [redirector + fname for fname in run_fnames]
 
-            fileset = {**fileset, **sample_fileset}
+            fileset.update(sample_fileset)
 
     return fileset
 
@@ -163,14 +163,14 @@ def get_xsecs():
 
 
 def get_processor(
-    processor: str,
-    save_ak15: bool = None,
-    label: str = None,
-    njets: int = None,
-    save_systematics: bool = None,
-    inference: bool = None,
-    save_all: bool = None,
-    lp_sfs: bool = None,
+    processor,
+    save_ak15 = None,
+    label = None,
+    njets = None,
+    save_systematics = None,
+    inference = None,
+    save_all = None,
+    lp_sfs = None,
 ):
     # define processor
     if processor == "trigger":

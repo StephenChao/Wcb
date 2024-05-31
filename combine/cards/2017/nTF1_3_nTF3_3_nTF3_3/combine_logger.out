@@ -1,0 +1,686 @@
+INFO: (function: run) Combine.cc: 673 -- Floating the following parameters: 
+INFO: (function: run) Combine.cc: 676  CMS_Wcb_boosted_tf_dataResidual_CR_Bin2 
+INFO: (function: run) Combine.cc: 676  CMS_Wcb_boosted_tf_dataResidual_CR_Bin3 
+INFO: (function: run) Combine.cc: 676  CMS_Wcb_boosted_tf_dataResidual_CR_Bin4 
+INFO: (function: run) Combine.cc: 676  CMS_Wcb_boosted_tf_dataResidual_CR_Bin5 
+INFO: (function: run) Combine.cc: 676  CMS_Wcb_boosted_tf_dataResidual_CR_Bin6 
+INFO: (function: run) Combine.cc: 676  CMS_Wcb_boosted_tf_dataResidual_CR_Bin7 
+INFO: (function: run) Combine.cc: 676  r 
+INFO: (function: run) Combine.cc: 708 -- Freezing the following parameters: 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin18_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin19_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin3_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin4_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin5_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin6_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin7_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin8_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_CR_mcstat_bin9_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_QCDScale_rest_bkg_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_QCDScale_single_top_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_QCDScale_ttbar_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_QCDScale_wjets_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_Signal_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_Signal_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_Signal_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin3_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin4_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin5_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin6_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin7_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin8_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_mcstat_bin9_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin18_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_single_top_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin18_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin19_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_ttbar_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR1_wjets_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin18_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin19_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin3_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin4_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin5_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin6_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin7_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin8_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR2_mcstat_bin9_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin0_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin1_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin10_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin11_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin12_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin13_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin14_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin15_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin16_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin17_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin18_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin19_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin2_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin3_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin4_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin5_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin6_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin7_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin8_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_SR3_mcstat_bin9_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_jmr_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_Wcb_boosted_jms_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_pileup_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_res_j_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_Abs_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_Abs_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_BBEC1_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_BBEC1_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_EC2_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_EC2_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_FlavQCD_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_HF_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_HF_2017_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_RelBal_In 
+INFO: (function: run) Combine.cc: 711  CMS_scale_j_RelSample_2017_In 
+INFO: (function: run) Combine.cc: 711  L1Prefiring_In 
+INFO: (function: run) Combine.cc: 711  Rest_rate_In 
+INFO: (function: run) Combine.cc: 711  ST_rate_In 
+INFO: (function: run) Combine.cc: 711  TT_rate_In 
+INFO: (function: run) Combine.cc: 711  WJets_rate_In 
+INFO: (function: run) Combine.cc: 711  lumi_13TeV_2017_In 
+INFO: (function: run) Combine.cc: 711  ps_fsr_In 
+INFO: (function: run) Combine.cc: 711  ps_isr_In 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_CR__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_CR__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_CR__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_CR__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_CRBlinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_CRBlinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_CRBlinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_CRBlinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeSig_Signal_SR1__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_SR1__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_SR1__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_SR1__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_SR1__norm 
+INFO: (function: run) Combine.cc: 711  shapeSig_Signal_SR1Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_SR1Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_SR1Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_SR1Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_SR1Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeSig_Signal_SR2__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_SR2__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_SR2__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_SR2__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_SR2__norm 
+INFO: (function: run) Combine.cc: 711  shapeSig_Signal_SR2Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_SR2Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_SR2Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_SR2Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_SR2Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeSig_Signal_SR3__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_SR3__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_SR3__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_SR3__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_SR3__norm 
+INFO: (function: run) Combine.cc: 711  shapeSig_Signal_SR3Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_ttbar_SR3Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_single_top_SR3Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_wjets_SR3Blinded__norm 
+INFO: (function: run) Combine.cc: 711  shapeBkg_rest_bkg_SR3Blinded__norm 
+INFO: (function: run) Combine.cc: 711  n_exp_binCR_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binCRBlinded_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binSR1_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binSR1Blinded_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binSR2_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binSR2Blinded_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binSR3_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: run) Combine.cc: 711  n_exp_binSR3Blinded_proc_CMS_Wcb_boosted_qcd_datadriven 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 23 -- Parameters after fit for asimov dataset
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin0 = 0.00266073 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin1 = -0.00275495 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin10 = 0.00538207 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin11 = -0.000201945 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin12 = -0.000784537 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin13 = -0.000182286 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin14 = -0.000489378 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin15 = -0.00440394 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin16 = -0.000429353 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin17 = -0.000822339 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin18 = 0.00105881 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin18_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin19 = 0.00292829 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin19_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin3 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin3_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin4 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin4_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin5 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin5_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin6 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin6_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin7 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin7_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin8 = -0.00157987 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin8_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin9 = 0.000586282 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_CR_mcstat_bin9_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_rest_bkg = 0.250501 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_rest_bkg_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_single_top = -0.237159 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_single_top_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_ttbar = 1.50133 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_ttbar_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_wjets = -0.47632 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_QCDScale_wjets_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_Signal_mcstat_bin1 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_Signal_mcstat_bin10 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_Signal_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_Signal_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_Signal_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_Signal_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin3 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin3_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin4 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin4_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin5 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin5_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin6 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin6_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin7 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin7_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin8 = 0.0562886 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin8_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin9 = -0.00705134 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_mcstat_bin9_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin0 = 0.0176305 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin1 = -0.0240851 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin10 = 0.00821832 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin11 = -0.00419723 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin12 = 0.0072506 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin13 = 0.00181938 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin14 = 0.00288034 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin15 = 0.00181338 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin16 = -0.00332252 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin17 = 0.00456392 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_rest_bkg_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin0 = 0.00177137 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin10 = -0.00157916 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin11 = -0.0434686 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin12 = -0.00747242 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin13 = -0.00344326 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin14 = -0.0340321 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin15 = -0.0197174 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin16 = -0.0507533 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin17 = -6.32207e-05 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin18 = -0.00646663 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin18_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_single_top_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin0 = 0.010368 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin1 = -0.0187339 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin10 = 0.0118784 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin11 = -0.0191205 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin12 = 0.0185932 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin13 = 0.0175133 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin14 = -0.0927123 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin15 = 0.0377374 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin16 = -0.0377551 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin17 = 0.028327 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin18 = -0.054026 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin18_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin19 = 0.0708131 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin19_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_ttbar_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin0 = 0.0282755 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin1 = -0.0281003 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin10 = 0.00327488 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin11 = -0.0104988 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin12 = 0.00585739 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin13 = 0.00560149 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin14 = -0.0118846 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin15 = 0.0152496 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin16 = -0.00934622 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin17 = 0.00797336 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR1_wjets_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin0 = 0.160431 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin1 = 0.0922873 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin10 = -0.259659 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin11 = -0.353298 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin12 = -0.298397 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin13 = -0.181455 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin14 = -0.192462 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin15 = -0.0232252 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin16 = -0.235402 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin17 = -0.0091614 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin18 = -0.207743 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin18_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin19 = -0.105926 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin19_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin3 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin3_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin4 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin4_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin5 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin5_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin6 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin6_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin7 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin7_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin8 = -0.30935 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin8_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin9 = -0.266447 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR2_mcstat_bin9_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin0 = -0.133549 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin1 = 0.0154213 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin10 = -0.0830139 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin11 = 0.119019 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin12 = 0.125895 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin13 = 0.0591531 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin14 = 0.082396 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin15 = 0.194676 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin16 = 0.102653 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin17 = 0.0332457 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin18 = -0.0216949 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin18_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin19 = -0.0788958 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin19_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin3 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin3_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin4 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin4_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin5 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin5_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin6 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin6_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin7 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin7_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin8 = 0.172166 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin8_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin9 = 0.0890135 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_SR3_mcstat_bin9_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_jmr_2017 = -0.449221 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_jmr_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_jms_2017 = -0.324796 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_jms_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par0 = 1.77205 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par1 = 0.626004 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par2 = 0.913065 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_1_MH_Reco_par3 = 0.994772 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par0 = 1.31676 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par1 = 1.30962 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par2 = 0.955757 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par3 = 1.36835 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 = -0.132827 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 = -0.0597454 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin10 = 0.161613 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin11 = 0.107628 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin12 = 0.0762286 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin13 = 0.0610508 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin14 = 0.0684754 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin15 = 0.0847613 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin16 = 0.0800376 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin17 = 0.0837617 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin18 = 0.083409 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin19 = 0.0844844 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin3 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin4 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin5 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin6 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin7 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin8 = 0.493286 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_Wcb_boosted_tf_dataResidual_CR_Bin9 = 0.325215 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_channel = 7 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_pileup_2017 = 0.354281 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_pileup_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_res_j_2017 = -0.146898 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_res_j_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_Abs = -0.316433 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_Abs_2017 = -0.112868 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_Abs_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_Abs_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_BBEC1 = -0.120878 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_BBEC1_2017 = -0.132472 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_BBEC1_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_BBEC1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_EC2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_EC2_2017 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_EC2_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_EC2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_FlavQCD = -0.0858431 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_FlavQCD_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_HF = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_HF_2017 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_HF_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_HF_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_RelBal = 0.270675 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_RelBal_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_RelSample_2017 = -0.248643 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_scale_j_RelSample_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- L1Prefiring = 0.148828 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- L1Prefiring_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- MH_Reco = 225 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- Rest_rate = -0.0788486 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- Rest_rate_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ST_rate = -0.0506732 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ST_rate_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- TT_rate = -0.463879 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- TT_rate_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- WJets_rate = 0.148815 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- WJets_rate_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- lumi_13TeV_2017 = -0.17948 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- lumi_13TeV_2017_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_CR = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_CRBlinded = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_SR1 = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_SR1Blinded = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_SR2 = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_SR2Blinded = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_SR3 = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- mask_SR3Blinded = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binCRBlinded_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binCR_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binSR1Blinded_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binSR1_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binSR2Blinded_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binSR2_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binSR3Blinded_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binSR3_proc_CMS_Wcb_boosted_qcd_datadriven = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ps_fsr = -1.87236 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ps_fsr_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ps_isr = -0.0984228 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ps_isr_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- r = 0 (constant)
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binCR_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binCRBlinded_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binSR1_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binSR1Blinded_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binSR2_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binSR2Blinded_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binSR3_obsOnly: in 20 x-bins
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 146 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 221 -- Generating asimov with histogram for pdf pdf_binSR3Blinded_obsOnly: in 20 x-bins
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 8.3125 (Sigma for expected limits = 4.24115)
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=1, tolerance=0.1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=1
+DEBUG: (function: improveOnce) CascadeMinimizer.cc: 212 -- finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim.
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0

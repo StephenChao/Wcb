@@ -54,7 +54,7 @@ warnings.filterwarnings("ignore", message="Found duplicate branch ")
 pd.set_option("mode.chained_assignment", None)
 
 
-CMS_PARAMS_LABEL = "CMS_HWW_boosted"
+CMS_PARAMS_LABEL = "CMS_Wcb_boosted"
 years = ["2016APV", "2016", "2017", "2018"]
 
 LUMI = {  # in pb^-1
@@ -171,8 +171,7 @@ mc_samples = OrderedDict(
 )
 bg_keys = list(mc_samples.keys())
 sig_keys = [
-    "TT",
-    "WJets",
+    "Signal",
 ]
 for key in sig_keys:
     mc_samples[key] = key
@@ -221,7 +220,7 @@ if args.year != "all":
         "lumi_13TeV_correlated",
         "lumi_13TeV_1718",
     ]:
-        if key != f"lumi_13TeV_{args.year}" and key not in f"lumi_13TeV_{args.year}":
+        if key != ("lumi_13TeV_%s" % ((args.year))) and key not in ("lumi_13TeV_%s" % ((args.year))):
             del nuisance_params[key]
 
 nuisance_params_dict = {
@@ -234,7 +233,7 @@ corr_year_shape_systs = {
     "FSRPartonShower": Syst(name="ps_fsr", prior="shape", samples=all_mc),
     "ISRPartonShower": Syst(name="ps_isr", prior="shape", samples=all_mc),
     "QCDscale": Syst(
-        name=f"{CMS_PARAMS_LABEL}_QCDScale",
+        name=("%s_QCDScale" % ((CMS_PARAMS_LABEL))),
         prior="shape",
         samples=bg_keys,
         samples_corr=False,
@@ -266,8 +265,8 @@ uncorr_year_shape_systs = {
     "HF": Syst(name="CMS_scale_j_HF", prior="shape", samples=all_mc),
     "RelativeSample_year": Syst(name="CMS_scale_j_RelSample", prior="shape", samples=all_mc),
     
-    "JMS": Syst(name=f"{CMS_PARAMS_LABEL}_jms", prior="shape", samples=all_mc),
-    "JMR": Syst(name=f"{CMS_PARAMS_LABEL}_jmr", prior="shape", samples=all_mc),
+    "JMS": Syst(name=("%s_jms" % ((CMS_PARAMS_LABEL))), prior="shape", samples=all_mc),
+    "JMR": Syst(name=("%s_jmr" % ((CMS_PARAMS_LABEL))), prior="shape", samples=all_mc),
     "JER": Syst(name="CMS_res_j", prior="shape", samples=all_mc),
     "pileup": Syst(name="CMS_pileup", prior="shape", samples=all_mc),
 }
@@ -279,8 +278,8 @@ for skey, syst in corr_year_shape_systs.items():
         for sample in syst.samples:
             if sample not in mc_samples:
                 continue #means MC name error
-            shape_systs_dict[f"{skey}_{sample}"] = rl.NuisanceParameter(
-                f"{syst.name}_{mc_samples[sample]}", "shape"
+            shape_systs_dict[("%s_%s" % ((skey), (sample)))] = rl.NuisanceParameter(
+                ("%s_%s" % ((syst.name), (mc_samples[sample]))), "shape"
             )
     else:
         shape_systs_dict[skey] = rl.NuisanceParameter(syst.name, "shape")
@@ -288,39 +287,39 @@ for skey, syst in corr_year_shape_systs.items():
 for skey, syst in uncorr_year_shape_systs.items():
     for year in years:
         if year in syst.uncorr_years:
-            shape_systs_dict[f"{skey}_{year}"] = rl.NuisanceParameter(
-                f"{syst.name}_{year}", "shape"
+            shape_systs_dict[("%s_%s" % ((skey), (year)))] = rl.NuisanceParameter(
+                ("%s_%s" % ((syst.name), (year))), "shape"
             )
 
 def get_templates(
-    templates_dir: Path,
-    years: List[str],
-    scale: float = None,
+    templates_dir,
+    years,
+    scale = None,
 ):
     """Loads templates, combines bg and sig templates if separate, sums across all years"""
-    templates_dict: dict[str, dict[str, Hist]] = {}
+    templates_dict = {}
 
     for year in years:
         print("template_dir =",templates_dir )
-        print("template =",templates_dir / f"templates_{year}.pkl" )
-        with (templates_dir / f"templates_{year}.pkl").open("rb") as f:
+        print("template =",templates_dir / ("templates_%s.pkl" % ((year))) )
+        with (templates_dir / ("templates_%s.pkl" % ((year)))).open("rb") as f:
             templates_dict[year] = rem_neg(pkl.load(f))
 
-    templates_summed: dict[str, Hist] = sum_templates(templates_dict, years)  # sum across years
+    templates_summed = sum_templates(templates_dict, years)  # sum across years
     return templates_dict, templates_summed
 
 def fill_regions(
-    model: rl.Model,
-    regions: List[str],
-    templates_dict: Dict,
-    templates_summed: Dict,
-    mc_samples: Dict[str, str],
-    nuisance_params: Dict[str, Syst],
-    nuisance_params_dict: Dict[str, rl.NuisanceParameter],
-    corr_year_shape_systs: Dict[str, Syst],
-    uncorr_year_shape_systs: Dict[str, Syst],
-    shape_systs_dict: Dict[str, rl.NuisanceParameter],
-    bblite: bool = True,
+    model,
+    regions,
+    templates_dict,
+    templates_summed,
+    mc_samples,
+    nuisance_params,
+    nuisance_params_dict,
+    corr_year_shape_systs,
+    uncorr_year_shape_systs,
+    shape_systs_dict,
+    bblite = True,
 ):
     """Fill samples per region including given rate, shape and mcstats systematics.
     Ties "blinded" and "nonblinded" mc stats parameters together.
@@ -367,7 +366,7 @@ def fill_regions(
             if sample_name in sig_keys:
                 if not pass_region:
                     #don't need to enter CR signal anyway
-                    logging.info(f"\nSkipping {sample_name} in {region} region\n")
+                    logging.info(("\nSkipping %s in %s region\n" % ((sample_name), (region))))
                     continue
 
             logging.info("get templates for: %s" % sample_name)
@@ -395,7 +394,7 @@ def fill_regions(
                 logging.info("setting autoMCStats for %s in %s" % (sample_name, region))
                 # tie MC stats parameters together in blinded and "unblinded" region in nonresonant
                 region_name = region_noblinded
-                stats_sample_name = f"{CMS_PARAMS_LABEL}_{region_name}_{card_name}"
+                stats_sample_name = ("%s_%s_%s" % ((CMS_PARAMS_LABEL), (region_name), (card_name)))
                 sample.autoMCStats(
                     sample_name=stats_sample_name,
                     # this function uses a different threshold convention from combine
@@ -413,7 +412,7 @@ def fill_regions(
                 if syst.pass_only and (syst.apply_reg not in region_noblinded):
                     continue 
 
-                logging.info(f"Getting {skey} rate")
+                logging.info(("Getting %s rate" % ((skey))))
 
                 param = nuisance_params_dict[skey] #rl.NuisanceParameter object
 
@@ -433,29 +432,29 @@ def fill_regions(
                 if sample_name not in syst.samples or (not pass_region and syst.pass_only):
                     continue
 
-                logging.info(f"Getting {skey} shapes")
+                logging.info(("Getting %s shapes" % ((skey))))
 
                 if skey in jecs or skey in uncluste:
                     # JEC/UEs saved as different "region" in dict
-                    up_hist = templates_summed[f"{region_noblinded}_{skey}_up{blind_str}"][sample_name,:]
-                    down_hist = templates_summed[f"{region_noblinded}_{skey}_down{blind_str}"][sample_name,:]
+                    up_hist = templates_summed[("%s_%s_up%s" % ((region_noblinded), (skey), (blind_str)))][sample_name,:]
+                    down_hist = templates_summed[("%s_%s_down%s" % ((region_noblinded), (skey), (blind_str)))][sample_name,:]
 
                     values_up = up_hist.values()
                     values_down = down_hist.values()
                 else:
                     # weight uncertainties saved as different "sample" in dict
-                    values_up = region_templates[f"{sample_name}_{skey}_up", :].values()
-                    values_down = region_templates[f"{sample_name}_{skey}_down", :].values()
+                    values_up = region_templates[("%s_%s_up" % ((sample_name), (skey))), :].values()
+                    values_down = region_templates[("%s_%s_down" % ((sample_name), (skey))), :].values()
 
-                logger = logging.getLogger(f"validate_shapes_{region}_{sample_name}_{skey}")
+                logger = logging.getLogger(("validate_shapes_%s_%s_%s" % ((region), (sample_name), (skey))))
 
                 effect_up, effect_down = get_effect_updown(
                     values_nominal, values_up, values_down, mask, logger, args.epsilon
                 )
-                # logging.info(f"final effect up is {effect_up}")
-                # logging.info(f"final effect down is {effect_down}")
+                # logging.info(("final effect up is %s" % ((effect_up))))
+                # logging.info(("final effect down is %s" % ((effect_down))))
                 # separate syst if not correlated across samples
-                sdkey = skey if syst.samples_corr else f"{skey}_{sample_name}"
+                sdkey = skey if syst.samples_corr else ("%s_%s" % ((skey), (sample_name)))
                 sample.setParamEffect(shape_systs_dict[sdkey], effect_up, effect_down)
 
 
@@ -464,12 +463,12 @@ def fill_regions(
                 if sample_name not in syst.samples or (not pass_region and syst.pass_only):
                     continue
 
-                logging.info(f"Getting {skey} shapes")
+                logging.info(("Getting %s shapes" % ((skey))))
 
                 for year in years:
                     if year not in syst.uncorr_years:
                         continue
-                    logging.info(f"year: {year}")
+                    logging.info(("year: %s" % ((year))))
                     values_up, values_down = get_year_updown(
                         templates_dict,
                         sample_name,
@@ -481,20 +480,20 @@ def fill_regions(
                         years
                     )
                     #get summed templates with only the given year's shape shifted up and down by the ``skey`.
-                    logger = logging.getLogger(f"validate_shapes_{region}_{sample_name}_{skey}_{year}")
+                    logger = logging.getLogger(("validate_shapes_%s_%s_%s_%s" % ((region), (sample_name), (skey), (year))))
                     
-                    # logging.info(f"final values up in {year} is {values_up}")
-                    # logging.info(f"nom value in {year} is {values_nominal}")
-                    # logging.info(f"final values down in {year} is {values_down}")
+                    # logging.info(("final values up in %s is %s" % ((year), (values_up))))
+                    # logging.info(("nom value in %s is %s" % ((year), (values_nominal))))
+                    # logging.info(("final values down in %s is %s" % ((year), (values_down))))
 
                     effect_up, effect_down = get_effect_updown(
                         values_nominal, values_up, values_down, mask, logger, args.epsilon
                     )
-                    # logging.info(f"nom value in {year} is {values_nominal}")
-                    # logging.info(f"final effect up in {year} is {effect_up}")
-                    # logging.info(f"final effect down in {year} is {effect_down}")
+                    # logging.info(("nom value in %s is %s" % ((year), (values_nominal))))
+                    # logging.info(("final effect up in %s is %s" % ((year), (effect_up))))
+                    # logging.info(("final effect down in %s is %s" % ((year), (effect_down))))
                     sample.setParamEffect(
-                        shape_systs_dict[f"{skey}_{year}"], effect_up, effect_down
+                        shape_systs_dict[("%s_%s" % ((skey), (year)))], effect_up, effect_down
                     )
 
             ch.addSample(sample)
@@ -505,7 +504,7 @@ def fill_regions(
             # tie MC stats parameters together in blinded and "unblinded" region in nonresonant
             channel_name = region_noblinded 
             ch.autoMCStats(
-                channel_name=f"{CMS_PARAMS_LABEL}_{channel_name}",
+                channel_name=("%s_%s" % ((CMS_PARAMS_LABEL), (channel_name))),
                 threshold=args.mcstats_threshold,
                 epsilon=args.epsilon,
             )
@@ -514,27 +513,27 @@ def fill_regions(
         ch.setObservation(region_templates["data", :])
 
 def alphabet_fit(
-    model: rl.Model,
-    shape_vars: List[ShapeVar],
-    templates_summed: Dict,
-    scale: float = None,
-    min_qcd_val: float = None,
+    model,
+    shape_vars,
+    templates_summed,
+    scale = None,
+    min_qcd_val = None,
 ):   
-    # using SR1a, SR1b, CR1, SR2a, SR2b, CR2, SR3a, SR3b, CR3 below:
+    # using SR1, SR2, SR3, CR below:
     shape_var = shape_vars[0]
     m_obs = rl.Observable(shape_var.name, shape_var.bins)
     
     qcd_eff_1 = (
-        templates_summed[f"SR1"]["QCD", :].sum().value
-        / templates_summed[f"CR1"]["QCD", :].sum().value
+        templates_summed[("SR1" % (()))]["QCD", :].sum().value
+        / templates_summed[("CR" % (()))]["QCD", :].sum().value
     )
     qcd_eff_2 = (
-        templates_summed[f"SR2"]["QCD", :].sum().value
-        / templates_summed[f"CR1"]["QCD", :].sum().value
+        templates_summed[("SR2" % (()))]["QCD", :].sum().value
+        / templates_summed[("CR" % (()))]["QCD", :].sum().value
     )
     qcd_eff_3 = (
-        templates_summed[f"SR3"]["QCD", :].sum().value
-        / templates_summed[f"CR1"]["QCD", :].sum().value
+        templates_summed[("SR3" % (()))]["QCD", :].sum().value
+        / templates_summed[("CR" % (()))]["QCD", :].sum().value
     )
 
     
@@ -542,24 +541,24 @@ def alphabet_fit(
     # each SR should use one polynomial
 
     tf_dataResidual_1 = rl.BasisPoly(
-        f"{CMS_PARAMS_LABEL}_tf_dataResidual_1",
-        (shape_var.order_a,),
+        ("%s_tf_dataResidual_1" % ((CMS_PARAMS_LABEL))),
+        (shape_var.order_1,),
         [shape_var.name],
         basis="Bernstein",
         limits=(-20, 20),
         square_params=True, 
     )
     tf_dataResidual_2 = rl.BasisPoly(
-        f"{CMS_PARAMS_LABEL}_tf_dataResidual_2",
-        (shape_var.order_b,),
+        ("%s_tf_dataResidual_2" % ((CMS_PARAMS_LABEL))),
+        (shape_var.order_2,),
         [shape_var.name],
         basis="Bernstein",
         limits=(-20, 20),
         square_params=True, 
     )  
     tf_dataResidual_3 = rl.BasisPoly(
-        f"{CMS_PARAMS_LABEL}_tf_dataResidual_2",
-        (shape_var.order_b,),
+        ("%s_tf_dataResidual_2" % ((CMS_PARAMS_LABEL))),
+        (shape_var.order_3,),
         [shape_var.name],
         basis="Bernstein",
         limits=(-20, 20),
@@ -578,17 +577,17 @@ def alphabet_fit(
     #set QCD parameters for 3 CRs
     qcd_params = np.array(
         [
-            rl.IndependentParameter(f"{CMS_PARAMS_LABEL}_tf_dataResidual_CR_Bin{i}", 0)
+            rl.IndependentParameter(("%s_tf_dataResidual_CR_Bin%s" % ((CMS_PARAMS_LABEL), (i))), 0)
             for i in range(m_obs.nbins)
         ]
     )
     
     for blind_str in ["", "Blinded"]:
         # for blind_str in ["Blinded"]:
-        passChName1 = f"SR1{blind_str}".replace("_", "")
-        passChName2 = f"SR2{blind_str}".replace("_", "")
-        passChName3 = f"SR3{blind_str}".replace("_", "")
-        failChName = f"CR{blind_str}".replace("_", "")
+        passChName1 = ("SR1%s" % ((blind_str))).replace("_", "")
+        passChName2 = ("SR2%s" % ((blind_str))).replace("_", "")
+        passChName3 = ("SR3%s" % ((blind_str))).replace("_", "")
+        failChName = ("CR%s" % ((blind_str))).replace("_", "")
         
         #Get pass and fail channel information
         failCh = model[failChName]
@@ -626,16 +625,16 @@ def alphabet_fit(
         
         #Set fail region below
         fail_qcd = rl.ParametericSample(
-            f"{failChName}_{CMS_PARAMS_LABEL}_qcd_datadriven",
+            ("%s_%s_qcd_datadriven" % ((failChName), (CMS_PARAMS_LABEL))),
             rl.Sample.BACKGROUND,
             m_obs,
-            scaled_params1,
+            scaled_params,
         )
         failCh.addSample(fail_qcd)
                 
         #Set pass region below
         pass_qcd_1 = rl.TransferFactorSample(
-            f"{passChName1a}_{CMS_PARAMS_LABEL}_qcd_datadriven",
+            ("%s_%s_qcd_datadriven" % ((passChName1), (CMS_PARAMS_LABEL))),
             rl.Sample.BACKGROUND,
             tf_params_pass_1,
             fail_qcd,
@@ -645,7 +644,7 @@ def alphabet_fit(
         passCh1.addSample(pass_qcd_1)      
           
         pass_qcd_2 = rl.TransferFactorSample(
-            f"{passChName1b}_{CMS_PARAMS_LABEL}_qcd_datadriven",
+            ("%s_%s_qcd_datadriven" % ((passChName2), (CMS_PARAMS_LABEL))),
             rl.Sample.BACKGROUND,
             tf_params_pass_2,
             fail_qcd,
@@ -654,7 +653,7 @@ def alphabet_fit(
         passCh2.addSample(pass_qcd_2)
         
         pass_qcd_3 = rl.TransferFactorSample(
-            f"{passChName3}_{CMS_PARAMS_LABEL}_qcd_datadriven",
+            ("%s_%s_qcd_datadriven" % ((passChName3), (CMS_PARAMS_LABEL))),
             rl.Sample.BACKGROUND,
             tf_params_pass_3,
             fail_qcd,
@@ -669,7 +668,7 @@ def main(args):
     print("Years are,",years)
     
     # all SRs and CRs
-    regions : List[str] = ["SR1","SR2","SR3","CR"]
+    regions = ["SR1","SR2","SR3","CR"]
     regions_blinded = [region + "Blinded" for region in regions]
     regions = regions +  regions_blinded #only use blinded results now
     cur_dir = os.getcwd()
@@ -687,7 +686,7 @@ def main(args):
     #apply lund plane sf
     model = rl.Model("Wcb")
     #random template from which to extract shape vars
-    sample_templates: Hist = templates_summed[next(iter(templates_summed.keys()))]
+    sample_templates = templates_summed[next(iter(templates_summed.keys()))]
     
     #MH_Reco for full-hadronic boosted HWW
     shape_vars = [
@@ -718,7 +717,7 @@ def main(args):
     
     logging.info("rendering combine model")
 
-    os.system(f"mkdir -p {args.cards_dir}")
+    os.system(("mkdir -p %s" % ((args.cards_dir))))
 
     out_dir = (
         os.path.join(str(args.cards_dir), args.model_name)
@@ -727,7 +726,7 @@ def main(args):
     )
     model.renderCombine(out_dir)
 
-    with open(f"{out_dir}/model.pkl", "wb") as fout:
+    with open(("%s/model.pkl" % ((out_dir))), "wb") as fout:
         pkl.dump(model, fout, 2)  # use python 2 compatible protocol
         
 main(args)

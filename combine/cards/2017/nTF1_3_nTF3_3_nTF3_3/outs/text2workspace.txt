@@ -1,0 +1,2 @@
+Warning: Bin CR has no signal processes contributing to it
+Warning: Bin CRBlinded has no signal processes contributing to it

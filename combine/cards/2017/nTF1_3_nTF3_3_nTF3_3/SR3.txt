@@ -1,0 +1,82 @@
+# Datacard for <Channel (SR3) instance at 0x2b0ee8122fa0> generated on 2024-05-26 13:33:59.088890
+imax 1 # number of categories ('bins' but here we are using shape templates)
+jmax 5 # number of samples minus 1
+kmax 47 # number of nuisance parameters
+shapes * SR3 Wcb.root Wcb:SR3_$PROCESS Wcb:SR3_$PROCESS_$SYSTEMATIC
+bin SR3
+observation 50745.000
+bin                                           SR3       SR3         SR3       SR3       SR3                             SR3
+process                                    Signal     ttbar  single_top     wjets  rest_bkg  CMS_Wcb_boosted_qcd_datadriven
+process                                         0         1           2         3         4                               5
+rate                                       23.829  3465.923     535.414  4987.733  2852.078                           1.000
+CMS_Wcb_boosted_QCDScale_rest_bkg shape         -         -           -         -    1.0000                               -
+CMS_Wcb_boosted_QCDScale_single_top shape       -         -      1.0000         -         -                               -
+CMS_Wcb_boosted_QCDScale_ttbar shape            -    1.0000           -         -         -                               -
+CMS_Wcb_boosted_QCDScale_wjets shape            -         -           -    1.0000         -                               -
+CMS_Wcb_boosted_SR3_mcstat_bin0 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin1 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin10 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin11 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin12 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin13 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin14 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin15 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin16 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin17 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin18 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin19 shape     1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin2 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin3 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin4 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin5 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin6 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin7 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin8 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_SR3_mcstat_bin9 shape      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_jmr_2017 shape             1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_jms_2017 shape             1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_pileup_2017 shape                      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_res_j_2017 shape                       1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_Abs shape                      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_Abs_2017 shape                 1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_BBEC1 shape                    1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_BBEC1_2017 shape               1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_EC2 shape                      1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_EC2_2017 shape                 1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_FlavQCD shape                  1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_HF shape                       1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_HF_2017 shape                  1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_RelBal shape                   1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_scale_j_RelSample_2017 shape           1.0000    1.0000      1.0000    1.0000    1.0000                               -
+L1Prefiring shape                          1.0000    1.0000      1.0000    1.0000    1.0000                               -
+Rest_rate lnN                                   -         -           -         -    1.0500                               -
+ST_rate lnN                                     -         -      1.0500         -         -                               -
+TT_rate lnN                                     -    1.0500           -         -         -                               -
+WJets_rate lnN                                  -         -           -    1.0500         -                               -
+lumi_13TeV_2017 lnN                        1.0200    1.0200      1.0200    1.0200    1.0200                               -
+ps_fsr shape                               1.0000    1.0000      1.0000    1.0000    1.0000                               -
+ps_isr shape                               1.0000    1.0000      1.0000    1.0000    1.0000                               -
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par0 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par1 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par2 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_2_MH_Reco_par3 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin0 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin1 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin10 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin11 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin12 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin13 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin14 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin15 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin16 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin17 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin18 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin19 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin2 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin3 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin4 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin5 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin6 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin7 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin8 extArg Wcb.root:Wcb
+CMS_Wcb_boosted_tf_dataResidual_CR_Bin9 extArg Wcb.root:Wcb
