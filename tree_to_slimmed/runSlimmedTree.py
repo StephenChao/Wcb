@@ -14,8 +14,8 @@ parser.add_option('--type',      action="store",type="string",dest="type"      ,
 parser.add_option('--test',      action="store",type="string",dest="test"      ,default="notest")
 (options, args) = parser.parse_args()
 
-TreeDir = "/data/bond/zhaoyz/Tree/V10/" + options.year + "/Merged/"
-SlimmedTreeDir = "/data/bond/zhaoyz/SlimmedTree/V7/" + options.year + "/"
+TreeDir = "/data/bond/zhaoyz/Tree/Wcb_V2/" + options.year + "/Merged/"
+SlimmedTreeDir = "/data/bond/zhaoyz/SlimmedTree/Wcb_V1/" + options.year + "/"
 if options.type == "Signal":
     for Files in os.listdir(TreeDir + options.type):
         if not Files.endswith("root"):continue
@@ -29,9 +29,12 @@ elif options.type == "MC":
         # if Files == "Tree_TT.root": continue
         # if Files == "Tree_QCD.root": continue
         # if Files == "Tree_ST.root": continue
-        # if Files == "Tree_WJets.root": continue
+        if Files == "Tree_WJets.root": 
+            # continue
+            CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -s -y %s"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
         # if Files == "Tree_Rest.root": continue
-        CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
+        else:
+            CommandStr = "python SlimmedTreeProducer.py -i %s/%s -o %s/Slimmed%s -B Tree -u -y %s"%(TreeDir + options.type, Files, SlimmedTreeDir + options.type, Files,options.year)
         print("Should ",CommandStr)
         if  options.test == "notest" : os.system(CommandStr)
 else:    

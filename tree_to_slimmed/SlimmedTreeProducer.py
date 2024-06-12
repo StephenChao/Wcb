@@ -372,6 +372,9 @@ if args.Branches in ["Tree","SF"] :
     # "Mj_corr","Mj_corr_2","Mj_corr_3",
     # "Mj_corr_a","Mj_corr_b","Mj_corr_c",
     # "MET_phi_NoXYCorr","MET_et_NoXYCorr",    
+    "Mj_corr_V2_a",
+    "Mj_corr_V2_b",
+    "Mj_corr_V2_c",
     ]
 if args.uncert :
     outcolumn += [
@@ -388,9 +391,7 @@ if args.uncert :
     "Mj_jerDown_a",
     "Mj_jerDown_b",
     "Mj_jerDown_c",
-    "Mj_corr_V2_a",
-    "Mj_corr_V2_b",
-    "Mj_corr_V2_c",
+
 
     "puWeight",
     "puWeightDown",
@@ -577,9 +578,10 @@ if args.year == "2018":
 ]
 
 elif args.year == "2017":
-    SFjson = "../../scale_factors/trigger/mesh_data_2017.json"
-    SF_unc_json = "../../scale_factors/trigger/mesh_data_2017_unc.json"
+    SFjson = "../scale_factors/trigger/2D/mesh_data_2017.json"
+    SF_unc_json = "../scale_factors/trigger/2D/mesh_data_2017_unc.json"
     loadcolumns += [
+        "isWcb",
         "HEM_Filter",
         "HLT_AK8PFJet500",
         "HLT_PFJet500",
@@ -593,7 +595,9 @@ elif args.year == "2017":
         "HLT_AK8PFHT850_TrimMass50",
         "HLT_AK8PFHT900_TrimMass50",
     ]
+
     drop = [
+        "isWcb",
         "HEM_Filter",
         "HLT_AK8PFJet500",
         "HLT_PFJet500",
@@ -607,6 +611,8 @@ elif args.year == "2017":
         "HLT_AK8PFHT850_TrimMass50",
         "HLT_AK8PFHT900_TrimMass50",
     ]
+
+
 
 elif args.year == "2016":
     SFjson = "../../scale_factors/trigger/mesh_data_2016.json"
@@ -639,8 +645,8 @@ elif args.year == "2016":
     ]
     
 elif args.year == "2016APV":
-    SFjson = "../../scale_factors/trigger/mesh_data_2016.json"
-    SF_unc_json = "../../scale_factors/trigger/mesh_data_2016_unc.json"
+    SFjson = "../../scale_factors/trigger/mesh_data_2016APV.json"
+    SF_unc_json = "../../scale_factors/trigger/mesh_data_2016APV_unc.json"
     loadcolumns += [
         "HEM_Filter",
         "HLT_PFHT650_WideJetMJJ900DEtaJJ1p5",
@@ -679,6 +685,7 @@ definecolumn = [
 
 #add array name and the length
 add_array = {
+    # "isWcb"     :1,
     "LHEPdfWeight" : 103
 }
 
@@ -687,6 +694,9 @@ if args.outfile:
     if args.year == "2017":   cut = " (HEM_Filter == 1) && ((HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1)   || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_PFHT1050 == 1) || (HLT_AK8PFJet380_TrimMass30 == 1) || (HLT_AK8PFJet400_TrimMass30== 1) || (HLT_AK8PFJet420_TrimMass30== 1) || (HLT_AK8PFHT750_TrimMass50 == 1) || (HLT_AK8PFHT800_TrimMass50 == 1) || (HLT_AK8PFHT850_TrimMass50 == 1) || (HLT_AK8PFHT900_TrimMass50))"
     if args.year == "2016":   cut = " (HEM_Filter == 1) && ((HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 == 1) || (HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 == 1)   || (HLT_PFHT800 == 1) || (HLT_PFHT900 == 1) || (HLT_PFJet450 == 1) || (HLT_AK8PFJet450== 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 == 1))"
     if args.year == "2016APV":cut = " (HEM_Filter == 1) && ((HLT_PFHT650_WideJetMJJ900DEtaJJ1p5 == 1) || (HLT_PFHT650_WideJetMJJ950DEtaJJ1p5 == 1)   || (HLT_PFHT800 == 1) || (HLT_PFHT900 == 1) || (HLT_PFJet450 == 1) || (HLT_AK8PFJet450== 1) || (HLT_AK8PFJet500 == 1) || (HLT_PFJet500 == 1) || (HLT_AK8PFJet360_TrimMass30 == 1) || (HLT_AK8PFHT700_TrimR0p1PT0p03Mass50 == 1))"
+    # be sure that only signal events has isWcb == 1 !!!
+    if signal : cut += " && (isWcb == 1)"
+    else : cut += " && (isWcb == 0)"
     print("loadcolumns")
     if F_CheckExistFile(args.outfile) :
         sys.exit("File already exists")
